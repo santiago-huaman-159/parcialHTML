@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+header {
+    background-color: #f1f1f1; /* Gris claro */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo, .nav-links, .social-icons {
+    flex: 1; 
+    text-align: center;
+}
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+.nav-links {
+    display: flex; 
+    justify-content: center; 
+}
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.nav-links a:hover {
+    background-color: #a9a9a9; /* Color al pasar el ratón */
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 20px; /* Tamaño de los íconos */
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #000ba8; /* Color al pasar el ratón */
+}
+.content {
+    margin-top: 100px; /* Para que el contenido no esté detrás del encabezado */
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #426DDC; /* Color de fondo similar al de la imagen */
+    font-family: 'Verdana', sans-serif; /* Fuente simple similar */
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.banner {
+    background-color: rgba(255, 255, 255, 0.2); /* Opacidad blanca */
+    text-align: center;
+   
+    width: 100%;
+    
+}
+
+.banner img{
+    width: 100%;
+}
+
+.contenedor-cajas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    top: 20px;
+}
+.caja {
+    background-color: rgba(255, 255, 255, 0.1); /* Caja con opacidad */
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.caja img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 55px;
+}
+.caja-texto {
+    margin-top: 10px;
+    font-size: 18px;
+}
